@@ -31,10 +31,10 @@ for use:
 txiv <image-file>
 '''
 ## Problems
-if you use labwc or other wayland compositors and use Xwayland , it wont work properly.
+if you use labwc or other wayland compositors and use Xwayland , it wont work properly. (such flick)
 but its been tested on Xfce and it works fine.
 
-# Thanks
+## Thanks
 Thanks nothings for stb_image header:
 https://github.com/nothings/stb
 
