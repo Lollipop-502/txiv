@@ -1,0 +1,1 @@
+gcc txiv.c -o txiv --std=c99 -lX11 -lm
