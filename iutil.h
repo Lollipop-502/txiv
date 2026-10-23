@@ -1,5 +1,6 @@
 #ifndef IUTIL_H
 #define IUTIL_H
+#include <string.h>
 
 /* 
 swap B and R color for big endian archictures such X86, X86_64 , Arm , etc.
