@@ -19,6 +19,7 @@ int main(int argc, char* argv[]) {
     if(!data) return 1;
 	//if your target cpu is big endian (X86, X86_64, .etc) you need this function
 	fix_BandR_color(data, width, height);
+
     //init
 	Display *d = XOpenDisplay(NULL);
 	int scr = DefaultScreen(d);
@@ -58,6 +59,7 @@ int main(int argc, char* argv[]) {
 		}
 	}
     //cleanup
+    stbi_image_free(data);
 	XDestroyImage(img);
 	XDestroyWindow(d,w);	
 	XCloseDisplay(d);
