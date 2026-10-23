@@ -1,0 +1,5 @@
+*.sh linguist-detectable=false
+*.md linguist-detectable=false
+
+*.h linguist-language=C
+*.c linguist-language=C
