@@ -12,24 +12,24 @@ options:
 
 ## Build
 for build you can simply write this command:
-'''bash
+```bash
 chmod +x build.sh
 ./build.sh
-'''
+```
 or directly:
-'''bash
+```bash
 gcc txiv.c -o txiv -lX11 -lm
-'''
+```
 ## Install
 for install:
-'''bash
+```bash
 ./build.sh install
-'''
+```
 ## Usage
 for use:
-'''bash
+```bash
 txiv <image-file>
-'''
+```
 ## Problems
 if you use labwc or other wayland compositors and use Xwayland , it wont work properly. (such flick)
 but its been tested on Xfce and it works fine.
